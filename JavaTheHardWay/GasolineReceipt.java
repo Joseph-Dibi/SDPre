@@ -18,11 +18,11 @@ public class GasolineReceipt
 
     System.out.println("|                         |");
 
-    System.out.println("|  Price/Gallon: $ 2.089  |");
+    System.out.println("|  Price/Gallon: $ 2.49   |");
 
     System.out.println("|                         |");
 
-    System.out.println("| Fuel total: $22.71      |");
+    System.out.println("| Fuel total: $27.06      |");
 
     System.out.println("|                         |");
 

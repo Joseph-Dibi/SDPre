@@ -50,11 +50,14 @@ public class AgeMessages
     }
     if ( age <= 65 && age >=35)
     {
-      System.out.println("\tshit, looks like you're stuck working!");
+      System.out.println("\tYou're stuck working!");
     }
     if (age > 65 )
     {
-      System.out.println("\told enough to retire son! Time to chill.");
+      System.out.println("\tYou are old enough to retire!");
     }
+
+//Nothing prior to the other additions.
+
   }
 }

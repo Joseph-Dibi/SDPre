@@ -7,7 +7,7 @@ public class Sequencing {
 
   Scanner keyboard = new Scanner(System.in);
   double price, salesTax, total;
-  price = 0;
+
 
 
 

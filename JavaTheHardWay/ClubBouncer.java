@@ -15,5 +15,6 @@ public class ClubBouncer
     {
       System.out.println("You are not allowed to enter the club.");
     }
+//It does not compile if anything gets between the if and else statements.
   }
 }

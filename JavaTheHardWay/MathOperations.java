@@ -2,7 +2,7 @@ public class MathOperations
 {
   public static void main(String[] args)
   {
-    int a, b, c, d, e, f, g, r, t;
+    int a, b, c, d, e, f, g, r, s;
     double x, y, z;
     String one, two, both;
 
@@ -35,7 +35,8 @@ public class MathOperations
     System.out.println( both );
 
     r = 4;
-    t = r * r;
-    System.out.println("r*r is " + t);
+    s = 5;
+
+    System.out.println("r*s is " + (r*s) );
   }
 }

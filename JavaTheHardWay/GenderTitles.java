@@ -5,7 +5,7 @@ public class GenderTitles
   public static void main( String[] args )
   {
     Scanner keyboard = new Scanner(System.in);
-    String title;
+    String title = "name";
 
     System.out.print( "First name: " );
     String first = keyboard.next();
@@ -35,7 +35,7 @@ public class GenderTitles
           title = "Ms.";
         }
     }
-      else
+      if ( gender.equals("M") )
         {
         title = "Mr.";
         }

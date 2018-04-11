@@ -17,5 +17,7 @@ public class ForgetfulMachine
 
     System.out.println("Is there anything else you would like to say?");
     keyboard.next();
+//The 2nd question blows up when I type a double or string.
+//I typed a string to blow it up because it could only handle a number.
   }
 }

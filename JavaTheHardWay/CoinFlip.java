@@ -31,7 +31,7 @@ public class CoinFlip
       else
       {
         System.out.println("\tYou lose everything!" );
-        System.out.println("\tShould've quit while you were aHead!....");
+        System.out.println("\tShould've quit while you were aHEAD!....");
         streak = 0;
         again = "n";
       }

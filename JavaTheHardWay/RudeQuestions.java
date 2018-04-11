@@ -4,7 +4,7 @@ public class RudeQuestions
 {
   public static void main( String[] args)
   {
-    String name;
+    String name, pet;
     int age;
     double weight, income;
 
@@ -28,5 +28,15 @@ public class RudeQuestions
     System.out.println(" and not per year!");
     System.out.print("Well, thanks for answering my rude questions, ");
     System.out.println( name + ".");
+
+    System.out.print( "What is the name of your pet? ");
+    pet = keyboard.next();
+    System.out.println("Wow, " + pet + " is a very cool name.");
+
+    //It does not blow up because an integer is still a double, but a double is not always an integer.
+    //It does not because Strings are flexible and will basically take anything.
+    //I blew up a String using cntrl-c or by exceeding the amount that could be stored in a String.
+    //A double or String wrecked how old I was.
+    //A String wrecked the double questions
   }
 }

@@ -3,13 +3,13 @@ public class CreatingVariables
   public static void main( String[] args )
   {
     int x, y, age, tacos;
-    double seconds, e, checking, hours;
+    double seconds, e, checking, minutes;
     String firstName, lastName, title, gfName, gfLastName;
 
     x = 10;
     y = 400;
     age = 39;
-    hours = 42.76;
+    minutes = 42.76;
 
     seconds = 4.71;
     e = 2.71828182845904523536;
@@ -36,7 +36,7 @@ public class CreatingVariables
 
     System.out.println( "My girlfriend " + gfName + " " + gfLastName + " is the best girlfriend ever.");
 
-    System.out.println( "She can make " + tacos + " tacos in " + hours + " minutes. It's impressive.");
+    System.out.println( "She can make " + tacos + " tacos in " + minutes + " minutes. It's impressive.");
 
   }
 }
